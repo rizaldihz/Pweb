@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<title>ChatBoks!</title>
+	<link rel="stylesheet" type="text/css" href="chat.css">
+	<link rel="icon" href="favicon.ico">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="chat.js"></script>
+</head>
+<body>
+	<div class="atas">
+		<img src="logo.png" style="height: 50px;margin-left :20px;position: fixed;">
+		<nav>
+			<h3 id="user" style="margin: 0;color: white;padding: 15px;">< You are logged in as, [<span></span>] ></h3>
+			<a href="index.html"><button class="btn logout">[Logout]</button></a>	
+		</nav>
+	</div>
+	<div class="judul">
+		<h1 style="font-size:30px;margin: 0px;"><span>< ChatBoks! ></span></h1>
+	</div>
+	<div class="container">
+		<div id="friends">
+			<input type="text" id="search" name="search" placeholder="[Search]">
+			<input type="submit" id="submit" value="Search">
+			<div id="lifds">
+				<p class="intext">Friends Online (5)</p>
+				<ul id="online">
+					<li><button class="frnd"><span>ROGER</span></button></li>
+					<li><button class="frnd"><span>GERALD</span></button></li>
+					<li><button class="frnd"><span>BARTHOLOMEW</span></button></li>
+					<li><button class="frnd"><span>CAROL</span></button></li>
+				</ul>
+			</div>
+		</div>
+		<div id="boks">
+			<div id="name">
+				<h2 id="lala"><img src="pic.png" style="height:40px;margin:5px 0 0 20px;"><span></span></h2>
+			</div>
+			<div id="display">
+				<ul class="chat">
+				</ul>
+			</div>
+			<input type="text" name="cht" id="type" placeholder="<Type your chat...>">
+			<input type="submit" name="send" id="send" value="Send">
+		</div>
+	</div>
+</body>
+</html>

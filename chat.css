@@ -1,0 +1,242 @@
+*{
+	font-family: monospace;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	background-color:blue;
+	font-family: monospace;
+}
+.atas{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	position: fixed;
+	height: 50px;
+	transition: background-color 0.2s ease;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.atas:hover
+{
+	background-color: rgba(0,0,0,1);
+}
+.atas nav{
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.atas nav h3,button{
+	display: inline-block;
+}
+
+.btn{
+	text-decoration: : none;
+	border-color: transparent;
+	font-size: 15px;
+  	color: white;
+	padding: 10px;
+	width: 100px;
+	height: 50px;
+	background-color: transparent;  
+	transition: background-color 0.3s ease, color 0.3s ease, width 0.3s ease;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.btn:hover
+{
+	background-color: white;
+	color : blue;
+	width: 130px;  
+	font-weight: bold;
+}
+
+.judul{
+	margin-top: 80px;
+	margin-left: 50px;
+	color : white;
+	font-family: monospace;
+}
+
+.judul span:hover{
+	border :2px solid white;
+	color: blue;
+	background-color: white;
+}
+
+.judul span{
+	animation:example 1.5s linear infinite; 
+}
+
+@keyframes example{
+	0%{
+		text-decoration: none;
+		color: white;
+	}
+	50%{
+		border :2px solid white;
+		color: blue;
+		background-color: white;	
+	}
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 35% 65%;
+	background-color: #dee5ef;
+	height: 550px;
+	border-radius: 5px;
+	margin: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 20px;
+}
+
+#search{
+	width: 80%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#search:focus{
+	background-color: blue;
+	color: white;
+
+}
+
+#submit{
+	width: 15%;
+    padding-top:12px;
+    padding-bottom:10px; 
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 15px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+#submit:hover{
+	color : white;
+	background-color: blue;
+}
+
+#friends #search,#submit{
+	display: inline-block;
+}
+
+#lifds{
+	height: 90%;
+	background-color: white;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+
+.intext{
+	color: grey;
+	font-size: 15px;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+#lifds li{
+	list-style: none;
+}
+
+#boks{
+	background-color: white;
+	margin: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 910px;
+}
+
+#name{
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+#name h2,img{
+	display: inline;
+}
+
+#display{
+	height: 400px;
+	border-bottom: 1px solid #ccc; 
+	overflow: auto;
+}
+
+#type{
+	width: 790px;
+	height: 70px;
+	background-color:white;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	overflow: auto;
+}
+
+#send{
+	width: 70px;
+	height: 90px;
+	background-color: white;
+	border-radius: 4px;
+	margin: 3px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+#send:hover{
+	background-color: blue;
+	color: white;
+}
+
+.chat li{
+	list-style: none;
+	padding: 5px;
+	margin: 2px;
+	background-color: blue;
+	color: white;
+}
+
+#boks #type,#send{
+	display: inline-block;
+}
+
+#online{
+	padding-left: 0px;
+}
+
+.frnd{
+	font-size: 20px;
+	padding:0px; 
+	padding-bottom: 4px; 
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+	width: 480px;
+	text-align: left;
+	text-indent: 40px;
+}
+
+.frnd:hover{
+	background-color: blue;
+	color: white;
+	border: 0px;
+}
+
+.frnd:focus{
+	background-color: blue;
+	color: white;
+	border: 0;
+}
