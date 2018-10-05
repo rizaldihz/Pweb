@@ -66,13 +66,13 @@ body{
 	background-color: white;
 }
 
-.judul span:hover{
+.judul .lala:hover{
 	border :2px solid white;
 	color: blue;
 	background-color: white;
 }
 
-.judul span{
+.judul .lala{
 	animation:example 1.5s linear infinite; 
 }
 
@@ -81,10 +81,21 @@ body{
 		text-decoration: none;
 		color: white;
 	}
+	49.9%{
+		text-decoration: none;
+		color: white;	
+	}
 	50%{
-		border :2px solid white;
 		color: blue;
 		background-color: white;	
+	}
+	99.9%{
+		color: blue;
+		background-color: white;	
+	}
+	100%{
+		text-decoration: none;
+		color: white;	
 	}
 }
 

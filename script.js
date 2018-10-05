@@ -40,14 +40,13 @@ $(document).ready(function(){
 	$('.sub').click(function(){
 		logged = true;
 		var name = $('.in').val();
+		$('span','.user').text(name);
+		localStorage.setItem('user',$('span','.user').html());
 		$(".regist").toggle();
 		$(".logout").toggle();
 		$(".regbox").fadeOut();
 		$(".login").hide(function(){
-			$('.user').toggle(function(){
-				$('span','.user').text(name);
-				localStorage.setItem('user',$('span','.user').html());
-			});
+			$('.user').toggle();
 		});
 	});
 	}

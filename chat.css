@@ -77,10 +77,21 @@ body{
 		text-decoration: none;
 		color: white;
 	}
+	49.9%{
+		text-decoration: none;
+		color: white;	
+	}
 	50%{
-		border :2px solid white;
 		color: blue;
 		background-color: white;	
+	}
+	99.9%{
+		color: blue;
+		background-color: white;	
+	}
+	100%{
+		text-decoration: none;
+		color: white;	
 	}
 }
 
